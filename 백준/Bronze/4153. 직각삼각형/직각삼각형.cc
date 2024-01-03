@@ -4,7 +4,6 @@
 int main(void)
 {
 	int A, B, C;
-	int count = 0;
 
 	while (1) {
 		std::cin >>  A >> B >> C;
@@ -23,7 +22,6 @@ int main(void)
 		else {
 			std::cout << "wrong" << std::endl;
 		}
-
 	}
 
 	return 0;
