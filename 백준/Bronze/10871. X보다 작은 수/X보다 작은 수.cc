@@ -1,12 +1,14 @@
 #include <iostream>
-#include <vector>
+using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(NULL);
+    cin.tie(nullptr);
+    
     int N;
     int X;
     int temp;
-    std::vector<int> large;
     
     std::cin >> N >> X;
     
@@ -14,11 +16,8 @@ int main()
     {
         std::cin >> temp;
         if (temp < X)
-            large.push_back(temp);
+            std::cout << temp << ' ';
     }
     
-    for (int cnt = 0; cnt < large.size(); cnt++)
-    {
-        std::cout << large[cnt] << " ";
-    }
+    return 0;
 }
