@@ -7,14 +7,13 @@ int main()
     cin.tie(nullptr);
     
     int input;
-    int odd[7];
     int sum = 0;
     int min = 100;
     
     for (int i = 0; i < 7; i++)
     {
         cin >> input;
-        if (input % 2 == 1)
+        if (input & 1)
         {
             sum += input;
             if (input < min)
