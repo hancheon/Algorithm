@@ -7,7 +7,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     
-    int A, B, cnt;
+    long long A, B, cnt;
     cin >> A >> B;
     
     if (A == B)
